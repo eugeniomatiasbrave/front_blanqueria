@@ -8,7 +8,7 @@
   let error: string | null = null;
   let formErrors: Record<string, string> = {};
   
-  const API_URL = import.meta.env.VITE_API_URL;
+
 
   async function handleSubmit() {
     loading = true;
@@ -16,7 +16,7 @@
     formErrors = {};
     
     try {
-      const response = await fetch(`${API_URL}/api/contact`, {
+      const response = await fetch('http://localhost:3001/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

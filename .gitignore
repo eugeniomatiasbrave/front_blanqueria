@@ -2,9 +2,9 @@
 node_modules/
 dist/
 build/
-.svelte-kit/
-.env
-.env.local
+#.svelte-kit/  descomentar para subir a github
+#.env
+#.env.local
 *.log
 .DS_Store
 .vscode/

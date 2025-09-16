@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { API_URL } from '$lib/config';
+  const API_URL = import.meta.env.VITE_BASE_URL;
 
   let name = '';
   let email = '';

@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { API_URL } from '$lib/config';
+
   let name = '';
   let email = '';
   let phone = '';
@@ -9,14 +11,13 @@
   let formErrors: Record<string, string> = {};
   
 
-
   async function handleSubmit() {
     loading = true;
     error = null;
     formErrors = {};
     
     try {
-      const response = await fetch('http://localhost:3001/api/contact', {
+      const response = await fetch(`${API_URL}/api/contact`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

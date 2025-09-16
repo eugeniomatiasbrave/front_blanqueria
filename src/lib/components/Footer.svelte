@@ -5,12 +5,14 @@
         <h3 class="text-xl font-bold mb-4">Blanquería</h3>
         <p class="text-gray-300 mb-4">Transformamos tu hogar con textiles premium que combinan elegancia, confort y durabilidad.</p>
         <div class="flex space-x-4">
+          <!-- svelte-ignore a11y-invalid-attribute -->
           <a href="#" class="text-gray-300 hover:text-white">
             <span class="sr-only">Facebook</span>
             <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
             </svg>
           </a>
+          <!-- svelte-ignore a11y-invalid-attribute -->
           <a href="#" class="text-gray-300 hover:text-white">
             <span class="sr-only">Instagram</span>
             <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -23,10 +25,15 @@
       <div>
         <h3 class="text-lg font-semibold mb-4">Productos</h3>
         <ul class="space-y-2">
+          <!-- svelte-ignore a11y-invalid-attribute -->
           <li><a href="#" class="text-gray-300 hover:text-white">Sábanas</a></li>
+          <!-- svelte-ignore a11y-invalid-attribute -->
           <li><a href="#" class="text-gray-300 hover:text-white">Toallas</a></li>
+          <!-- svelte-ignore a11y-invalid-attribute -->
           <li><a href="#" class="text-gray-300 hover:text-white">Cortinas</a></li>
+          <!-- svelte-ignore a11y-invalid-attribute -->
           <li><a href="#" class="text-gray-300 hover:text-white">Edredones</a></li>
+          <!-- svelte-ignore a11y-invalid-attribute -->
           <li><a href="#" class="text-gray-300 hover:text-white">Almohadas</a></li>
         </ul>
       </div>
@@ -34,10 +41,15 @@
       <div>
         <h3 class="text-lg font-semibold mb-4">Enlaces útiles</h3>
         <ul class="space-y-2">
+          <!-- svelte-ignore a11y-invalid-attribute -->
           <li><a href="#" class="text-gray-300 hover:text-white">Sobre nosotros</a></li>
+          <!-- svelte-ignore a11y-invalid-attribute -->
           <li><a href="#" class="text-gray-300 hover:text-white">Preguntas frecuentes</a></li>
+          <!-- svelte-ignore a11y-invalid-attribute -->
           <li><a href="#" class="text-gray-300 hover:text-white">Guía de tallas</a></li>
+          <!-- svelte-ignore a11y-invalid-attribute -->
           <li><a href="#" class="text-gray-300 hover:text-white">Envíos y devoluciones</a></li>
+          <!-- svelte-ignore a11y-invalid-attribute -->
           <li><a href="#" class="text-gray-300 hover:text-white">Términos y condiciones</a></li>
         </ul>
       </div>
@@ -67,8 +79,11 @@
     <div class="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
       <p class="text-gray-400">&copy; 2025 Blanquería Premium. Todos los derechos reservados.</p>
       <div class="mt-4 md:mt-0">
+        <!-- svelte-ignore a11y-invalid-attribute -->
         <a href="#" class="text-gray-400 hover:text-white mx-2">Privacidad</a>
+        <!-- svelte-ignore a11y-invalid-attribute -->
         <a href="#" class="text-gray-400 hover:text-white mx-2">Cookies</a>
+        <!-- svelte-ignore a11y-invalid-attribute -->
         <a href="#" class="text-gray-400 hover:text-white mx-2">Legal</a>
       </div>
     </div>

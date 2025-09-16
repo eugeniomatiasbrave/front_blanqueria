@@ -1,5 +1,5 @@
 <script lang="ts">
-  const API_URL = import.meta.env.VITE_BASE_URL;
+  const API_URL = import.meta.env.VITE_BASE_URL || 'https://backblanqueria-production.up.railway.app';
 
   let name = '';
   let email = '';
